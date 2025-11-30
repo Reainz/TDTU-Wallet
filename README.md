@@ -37,14 +37,6 @@ TDTU Wallet helps users take control of their finances by providing a complete s
 - **Debt Tracking**: Monitor and manage debts and loans
 - **Goal Setting**: Set and track financial goals with progress visualization
 
-### 🎨 User Experience
-- Material Design UI components for modern, intuitive interface
-- Navigation drawer for easy access to all features
-- Dark theme support for comfortable viewing in low-light conditions
-- Customizable categories and accounts for personalized organization
-- Responsive design that adapts to different screen sizes
-- Smooth animations and transitions for better user experience
-
 ## Technology Stack
 
 ### Core Technologies
@@ -58,13 +50,6 @@ TDTU Wallet helps users take control of their finances by providing a complete s
 - **Authentication**: Firebase Authentication (Email/Password)
 - **Database**: Firebase Realtime Database for real-time data synchronization
 - **Maps**: Google Maps API for location services
-
-### Libraries & Dependencies
-- **Charts**: MPAndroidChart v3.1.0 - Interactive chart visualization
-- **Networking**: Retrofit 2.9.0 & Gson - REST API communication
-- **Image Loading**: Glide 4.15.1 - Efficient image loading and caching
-- **UI Components**: Material Design Components 1.12.0
-- **RecyclerView**: AndroidX RecyclerView 1.3.0 - Efficient list rendering
 
 ## Project Structure
 
@@ -109,10 +94,6 @@ app/src/main/
 
 5. Sync Gradle files and build the project
 
-### Detailed Setup
-
-For comprehensive setup instructions, including Firebase configuration, API key setup, and troubleshooting, please refer to [SETUP.md](SETUP.md).
-
 ## Requirements
 
 ### Development Environment
@@ -140,80 +121,6 @@ The application follows the MVC (Model-View-Controller) architecture pattern:
 - **Model**: Data classes (`Transaction.java`, `HelperClass.java`) and Firebase database interactions
 - **View**: XML layout files in `res/layout/` directory
 - **Controller**: Activity classes that handle user interactions and business logic
-
-### Key Components
-
-- **Activities**: Handle UI and user interactions
-- **Adapters**: Manage RecyclerView data binding (`TransactionAdapter.java`, `NewsAdapter.java`)
-- **Helper Classes**: Utility functions and data models
-- **Firebase Integration**: Real-time data synchronization and authentication
-
-## Dependencies
-
-The project uses the following major dependencies (see `gradle/libs.versions.toml` for complete list):
-
-```gradle
-// Firebase
-- Firebase Authentication: 23.0.0
-- Firebase Realtime Database: 21.0.0
-
-// UI & Charts
-- Material Design Components: 1.12.0
-- MPAndroidChart: 3.1.0
-
-// Networking
-- Retrofit: 2.9.0
-- Gson Converter: 2.9.0
-
-// Image Loading
-- Glide: 4.15.1
-```
-
-## Usage
-
-### Creating an Account
-1. Launch the app and tap "Sign Up"
-2. Enter your email and password
-3. Complete the registration process
-
-### Adding Transactions
-1. Navigate to the main dashboard
-2. Tap the transaction icon or use the navigation drawer
-3. Select transaction type (Income/Expense)
-4. Enter amount, category, account, and optional notes
-5. Save the transaction
-
-### Viewing Analysis
-1. Open the Analysis section from the navigation drawer
-2. View standard analysis for overall spending patterns
-3. Access specific analysis for detailed category breakdowns
-4. Review interactive charts and graphs
-
-## Screenshots
-
-<!-- Add screenshots of your app here -->
-<!-- Example:
-![Login Screen](screenshots/login.png)
-![Dashboard](screenshots/dashboard.png)
-![Transaction History](screenshots/transactions.png)
-![Analysis](screenshots/analysis.png)
--->
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Code Style
-- Follow Java coding conventions
-- Use meaningful variable and method names
-- Add comments for complex logic
-- Maintain consistent indentation
 
 ## Known Issues
 
