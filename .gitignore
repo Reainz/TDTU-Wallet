@@ -51,7 +51,8 @@ render.experimental.xml
 .cxx/
 
 # Google Services (e.g. APIs or Firebase)
-# Note: google-services.json is typically committed for Firebase projects
+# Keep google-services.json local - contains API keys
+app/google-services.json
 
 # Freeline
 freeline.py
